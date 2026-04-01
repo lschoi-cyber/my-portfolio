@@ -3,49 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Your Name] — Communication Design & HCI Researcher</title>
+  <title>Yeun Soo Choi — Communication Design & HCI Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header role="banner" aria-label="Site header">
     <div class="header-inner">
-      <h1 class="name">[Your Name]</h1>
-      <p class="role">Communication Design &amp; HCI Researcher</p>
-      <p class="tagline">[One-sentence tagline that captures your research focus and design philosophy.]</p>
+      <div class="hero-meta reveal" style="--delay: 0s">
+        <span class="mono">Communication Design &amp; HCI Researcher</span>
+        <span class="mono separator" aria-hidden="true">/</span>
+        <span class="mono">Yonsei University</span>
+      </div>
+      <h1 class="name reveal" style="--delay: 0.1s">Yeun Soo<br>Choi</h1>
+      <p class="tagline reveal" style="--delay: 0.25s">
+        Designing the poetics of human–robot symbiosis — where interaction rituals, embodied cognition, and machine perception converge into legible experience.
+      </p>
     </div>
   </header>
 
   <main id="main-content">
 
     <section class="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading" class="section-heading">Projects</h2>
+      <div class="section-label reveal" style="--delay: 0.35s">
+        <span class="mono" id="projects-heading">Selected Work</span>
+        <span class="mono muted">03 Projects</span>
+      </div>
+
       <div class="projects-grid" role="list">
 
-        <article class="project-card" role="listitem" aria-label="Project 1 placeholder">
-          <span class="project-title">[Project Title One]</span>
+        <article class="project-card reveal" role="listitem" style="--delay: 0.4s" aria-label="Hiralo.ai project">
+          <div class="card-body">
+            <div class="card-index mono muted">01</div>
+            <h3 class="card-title">Hiralo.ai</h3>
+            <p class="card-desc">Bias-mitigation interfaces for AI-driven recruitment. Surfacing model confidence and demographic parity scores directly within the hiring workflow.</p>
+            <div class="card-meta">
+              <span class="tag mono">UX Research</span>
+              <span class="tag mono">Fairness-Aware Design</span>
+              <span class="tag mono">2024</span>
+            </div>
+          </div>
         </article>
 
-        <article class="project-card" role="listitem" aria-label="Project 2 placeholder">
-          <span class="project-title">[Project Title Two]</span>
+        <article class="project-card reveal" role="listitem" style="--delay: 0.5s" aria-label="Namu project">
+          <div class="card-body">
+            <div class="card-index mono muted">02</div>
+            <h3 class="card-title">Namu</h3>
+            <p class="card-desc">Human–robot interaction study mapping chanting-based vocal rituals onto domestic robot affordances. Explores presence, rhythm, and trust in everyday HRI.</p>
+            <div class="card-meta">
+              <span class="tag mono">HRI</span>
+              <span class="tag mono">Embodied Interaction</span>
+              <span class="tag mono">2024</span>
+            </div>
+          </div>
         </article>
 
-        <article class="project-card" role="listitem" aria-label="Project 3 placeholder">
-          <span class="project-title">[Project Title Three]</span>
+        <article class="project-card reveal" role="listitem" style="--delay: 0.6s" aria-label="K-Pop Ecosystems project">
+          <div class="card-body">
+            <div class="card-index mono muted">03</div>
+            <h3 class="card-title">K-Pop Ecosystems</h3>
+            <p class="card-desc">Data-visualization study on fan behavior and post-concert waste production at large-scale events. Translates behavioral telemetry into actionable environmental policy design.</p>
+            <div class="card-meta">
+              <span class="tag mono">Data Visualization</span>
+              <span class="tag mono">Behavioral Research</span>
+              <span class="tag mono">2023</span>
+            </div>
+          </div>
         </article>
 
       </div>
     </section>
 
     <section class="about" aria-labelledby="about-heading">
-      <h2 id="about-heading" class="section-heading">About</h2>
-      <p class="about-body">[Bio goes here]</p>
+      <div class="about-inner">
+        <div class="about-header reveal" style="--delay: 0.65s">
+          <span class="mono" id="about-heading">About</span>
+        </div>
+        <div class="about-content reveal" style="--delay: 0.75s">
+          <p class="about-body">
+            Yeun Soo Choi is a Communication Design and HCI researcher at Yonsei University's Graduate School of Communication & Arts. Her practice sits at the intersection of interaction design systems, human–robot interaction, and critical data visualization — with a focus on how designed interfaces mediate trust, agency, and meaning between people and intelligent systems.
+          </p>
+          <p class="about-body">
+            Her work has been presented at international venues in the ACM CHI and UMAP research communities. Prior to graduate study, she worked in UX/UI design systems for technology companies across Seoul and San Francisco.
+          </p>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <footer role="contentinfo" aria-label="Site footer">
-    <a href="mailto:[your@email.com]" class="contact-link" aria-label="Send an email">[your@email.com]</a>
+    <div class="footer-inner reveal" style="--delay: 0.85s">
+      <div class="footer-status">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span class="mono muted">Available for collaboration</span>
+      </div>
+      <a href="mailto:yeunsoo.choi@yonsei.ac.kr" class="contact-link mono" aria-label="Send an email to Yeun Soo Choi">
+        yeunsoo.choi@yonsei.ac.kr
+      </a>
+    </div>
   </footer>
 
 </body>
